@@ -1,0 +1,17 @@
+$bckColor: white;
+$fontColor: #30333d;
+$firstColor: #b551d6;
+$secondColor: #993c7f;
+
+@mixin display($display, $content, $item, $direction) {
+    display: $display;
+    justify-content: $content;
+    align-items: $item;
+    flex-direction: $direction;
+}
+@mixin setSize($height, $width) {
+    height: $height;
+    width: $width;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400;600&display=swap');
